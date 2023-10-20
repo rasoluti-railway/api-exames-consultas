@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao",
+      "sourceType": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao"
+    },
+    {
+      "name": "file",
+      "type": "br.com.exames.infrastructure.config.FileStorageProperties",
+      "sourceType": "br.com.exames.infrastructure.config.FileStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "api.log.atualiza-log",
+      "type": "java.lang.String",
+      "description": "A description for 'api.log.atualiza-log'"
+    },
+    {
+      "name": "api.log.geraLog",
+      "type": "java.lang.String",
+      "description": "A description for 'api.log.geraLog'"
+    },
+    {
+      "name": "api.log.grava-detalhe",
+      "type": "java.lang.String",
+      "description": "A description for 'api.log.grava-detalhe'"
+    },
+    {
+      "name": "api.log.gravaDetalhe",
+      "type": "java.lang.String",
+      "description": "A description for 'api.log.gravaDetalhe'"
+    },
+    {
+      "name": "app.context-path",
+      "type": "java.lang.String",
+      "sourceType": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao"
+    },
+    {
+      "name": "app.description",
+      "type": "java.lang.String",
+      "sourceType": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao"
+    },
+    {
+      "name": "app.name",
+      "type": "java.lang.String",
+      "sourceType": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao"
+    },
+    {
+      "name": "app.organization",
+      "type": "java.lang.String",
+      "sourceType": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao"
+    },
+    {
+      "name": "app.version",
+      "type": "java.lang.String",
+      "sourceType": "br.com.exames.infrastructure.swagger.SwaggerConfiguracao"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "br.com.exames.infrastructure.config.FileStorageProperties"
+    }
+  ],
+  "hints": []
+}
